@@ -28,6 +28,9 @@ std::vector<uint8_t> compress(const std::vector<uint8_t>& buffer) {
 
 		uint8_t bestMatch = 0;
 
+		//To get the exact same compression for Bomberman Kart DX use:
+		//if (frequencies[lastEncByte] >= 256) frequencies[lastEncByte] = 0x00;
+
 		uint8_t positionsToCheck = frequencies[lastEncByte] < 32 ? (frequencies[lastEncByte] & 0x1F) : 32;
 
 		uint64_t seqIndex = index;
