@@ -1,6 +1,4 @@
-#include <cstdint>
 #include <vector>
-
 
 std::vector<uint8_t> decompress(const std::vector<uint8_t>& buffer, uint32_t decompressedSize) { //LZSS based 
 

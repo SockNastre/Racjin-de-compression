@@ -7,11 +7,9 @@
 #include <iostream>    
 #include <sstream> 
 #include <vector>
-#include "racjin.h"
-
+#include "Racjin.h"
 
 namespace fs = std::filesystem;
-
 
 struct Header {
 	uint32_t offset = 0;

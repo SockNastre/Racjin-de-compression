@@ -1,4 +1,3 @@
-#include <cstdint>
 #include <vector>
 
 std::vector<uint8_t> compress(const std::vector<uint8_t>& buffer) {
