@@ -6,8 +6,9 @@ In this repository you can find code for _compression_ and _decompression_ algor
 * Naruto Shippuden: Legends: Akatsuki Rising (PSP)
 * Naruto Shippuden: Ultimate Ninja Impact (PSP)  
 * and many others.  
-Main contents of those games can be found in **CFC.DIG** files. Here is the tool for unpacking them:  https://github.com/Raw-man/Racjin-de-compression/releases/  
+Main contents of those games can be found in **CFC.DIG** files. [Here is the tool](https://github.com/Raw-man/Racjin-de-compression/releases/) for unpacking them. 
+
 **Note**: 
-In Naruto Shippuden: Ultimate Ninja Impact CFC.DIG files are encrypted and stored in PGD files so you need to decrypt them first;
-in Bomberman Kart Dx .DIG files have a different structure. 
+>In Naruto Shippuden: Ultimate Ninja Impact CFC.DIG files are encrypted and stored in PGD files so you need to decrypt them first;
+>in Bomberman Kart Dx .DIG files have a different structure.
 
