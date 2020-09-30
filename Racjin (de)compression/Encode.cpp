@@ -65,7 +65,7 @@ std::vector<uint8_t> compress(const std::vector<uint8_t>& buffer) {
 			index += bestMatch;
 		}
 		else { //encode byte literal
-			token = 0x100 | buffer[seqIndex]; //f|bbbbbbbb //f=1
+			token = 0x100 | buffer[index]; //f|bbbbbbbb //f=1
 			++index;
 		}
 
@@ -81,7 +81,7 @@ std::vector<uint8_t> compress(const std::vector<uint8_t>& buffer) {
 
 		seqIndices[key] = seqIndex;
 
-		frequencies[lastEncByte] = (frequencies[lastEncByte] + 1); //increase by 1 (up to 31)
+		frequencies[lastEncByte] = frequencies[lastEncByte] + 1; //increase by 1 (up to 31)
 
 		lastEncByte = buffer[index - 1];
 
