@@ -5,7 +5,6 @@ In this repository you can find code for _compression_ and _decompression_ algor
 * Bleach: Soul Carnival 2 (PSP)
 * Naruto Shippuden: Legends: Akatsuki Rising (PSP)
 * Naruto Shippuden: Ultimate Ninja Impact (PSP)
-* Saint Seiya Omega - Ultimate Cosmo
 * and many others.  
 
 Main contents of those games can be found in **CFC.DIG** files. [Here is the tool](https://github.com/Raw-man/Racjin-de-compression/releases/) for unpacking them. 
