@@ -1,4 +1,4 @@
-# Racjin compression and decompression algorithms
+# Racjin compression and decompression algorithms (CFC.DIG/CDDATA.DIG)
 In this repository you can find code for _compression_ and _decompression_ algorithms used in old PS2/PSP games by _Racjin_ (and other Japanese companies), such as 
 * Naruto: Uzumaki Chronicles series (PS2)
 * Fullmetal Alchemist 3 (PS2)
